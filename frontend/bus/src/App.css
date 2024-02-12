@@ -1,0 +1,21 @@
+/* App.css */
+
+header {
+  background-color: #333; /* Dark background color for the header */
+  color: #fff; /* Text color for the links */
+  padding: 10px; /* Add padding to the header */
+}
+
+nav {
+  display: flex; /* Make the navigation links display horizontally */
+}
+
+nav a {
+  color: #fff; /* Text color for the links */
+  text-decoration: none; /* Remove underline from the links */
+  margin-right: 20px; /* Add spacing between the links */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Underline the link on hover */
+}
