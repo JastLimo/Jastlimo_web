@@ -26,3 +26,24 @@
 .main-pic-bus {
   max-width: 200%;
 }
+.cover-photo img {
+  width: 100%;
+  display: block; 
+  height: auto; 
+  max-height: 1000px; 
+  object-fit: cover; 
+  object-position: center center center; 
+  overflow: hidden;
+  position: relative;
+
+}
+
+.row-op-logo {
+
+}
+.col-md-3 {
+  position:relative;
+  display: inline-block;
+
+  padding:10px;
+}

@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-lightnavbar navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
             <div className="container">
                 <a className="navbar-brand" href="#">
                     <img src="/logo.jpg" alt="my_logo" height="30" />
@@ -38,7 +38,7 @@ const Header = () => {
                             <a className="nav-link btn btn-primary" href="#">Book Tickets</a>
                         </li>
                     </ul>
-                    </div>
+                </div>
             </div>
         </nav>
     );
