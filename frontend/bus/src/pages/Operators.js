@@ -37,6 +37,12 @@ const Operators = () => {
 
                 <h1>Operators</h1>
             </div>
+            <div id="corouselExampleFade" class ="carousel slide corousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                
+            </div>
+
+            </div>
             <div className="container">
                 <div className="row-op-logo">
                     {operators.map((logo, index) => (
