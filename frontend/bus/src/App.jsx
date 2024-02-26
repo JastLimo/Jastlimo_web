@@ -7,6 +7,7 @@ import Blogs from './pages/Blogs';
 import Products from './pages/Products';
 import Gallery from './pages/Gallery';
 import Footer from './components/Footer';
+import Jastcertificate from './pages/Jastcertificate';
 import './App.css';
 
 
@@ -32,6 +33,7 @@ function App() {
         {/* <Route path="/booking" component={Booking} /> */}
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path='/certificate' element={<Jastcertificate />} />
         {/* <Route path="book-tickets" component={BookTickets} /> */}
     </Routes>
     </BrowserRouter>

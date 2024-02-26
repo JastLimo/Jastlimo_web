@@ -1,0 +1,23 @@
+.cover-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.cover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+
+.cert-container {
+    text-align: center; /* Center the certification image */
+    margin-top: 20px; 
+}
+
+.cert-image {
+    max-width: 100%; 
+}
